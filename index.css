@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(0, 204, 255),#fff);
+    overflow: hidden;
+}
+
+
+
+.pokemon_image{
+    position: absolute;
+    top:40%;
+    left: 47%;
+}
+
+.pokemonData{
+    position: absolute;
+    top:55%;
+    left: 47%;
+    font-size:100%;
+}
+
+form input{
+    position: absolute;
+    top:65%;
+    left: 42%;
+    height: 3%;
+    width: 15%;
+    border-block: 1rem;
+    border-block-color: gray;
+    box-shadow: -0.2rem 0.2rem 0.2rem black;
+}
+
